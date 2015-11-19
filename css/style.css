@@ -65,6 +65,11 @@ header .btn:hover {
   color: #000;
 }
 
+header .btn:focus {
+  color: #fff;
+}
+
+
 @media(min-width:768px) {
   header {
     min-height: 100%;
