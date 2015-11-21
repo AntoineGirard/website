@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css" charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css" charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Font Awesome -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -33,9 +33,9 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
+                  <li><a class="page-scroll" href="#aboutme">About me</a></li>
+                  <li><a class="page-scroll" href="#timeline">Timeline</a></li>
+                  <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
                 </ul>
             </div>
         </div>
@@ -46,21 +46,88 @@
         <div class="header-content-inner">
           <h1>Antoine Girard</h1>
           <p>
-            French engineer student and freelance
+            French engineering student and freelance
           </p>
           <hr>
-          <button type="button" class="btn btn-lg"><i class="fa fa-github"></i> GitHub</button>
-          <a href="#portfolio" class="page-scroll"><button type="button" class="btn btn-lg"><i class="fa fa-arrow-down"></i> About me</button></a>
-          <button type="button" class="btn btn-lg"><i class="fa fa-fire"></i> freeCodeCamp</button>
+          <a href="https://github.com/neeev"><button type="button" class="btn btn-lg"><i class="fa fa-github"></i> GitHub</button></a>
+          <a href="#aboutme" class="page-scroll"><button type="button" class="btn btn-lg"><i class="fa fa-arrow-down"></i> About me</button></a>
+          <a href="http://www.freecodecamp.com/neeev"><button type="button" class="btn btn-lg"><i class="fa fa-fire"></i> freeCodeCamp</button></a>
         </div>
 
       </div>
     </header>
 
     <main>
-      <div id="portfolio" class="container">
+      <div id="aboutme" class="container text-center">
+        <h1>About me</h1>
+        <hr>
+      </div>
+      <div id="timeline" class="container text-center">
+        <h1>Timeline</h1>
+        <hr>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <i class="fa fa-graduation-cap fa-3x"></i>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>July 2014</h4>
+                    <h4>Obtaining Scientific Bachelor: Engineering Sciences</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                      The success of this exam with honors, allowed me to join an engineering school with the required knowledge. <br>
+                      I prepared the review to Charles de Gaulle high school of Poissy, in which I have done multiple projects with a technological character.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img src="img/EISTI.png" alt="EISTI logo" class="img-responsive img-circle" />
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2014 - 2019 (expected)</h4>
+                    <h4>Preparation of engineering degree</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                      I am currently preparing an engineering degree at EISTI Cergy near Paris. <br>
+                      This training gives me the necessary background knowledge in the field of engineering information processing sciences. <br>
+                      This training also allows me to get a mpathematical and IT license of the UCP.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <i class="fa fa-power-off fa-3x"></i>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2015</h4>
+                    <h4>Creation of my self-company</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                      For several years I do web development, both for personal projects than for study projects. <br>
+                      Arriving at EISTI I could join a computer science association and improve my expertise. <br>
+                      So I decided to create my self-company to answer web development needs.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="portfolio" class="container text-center">
         <h1>Portfolio</h1>
-        
+        <hr>
       </div>
     </main>
 
