@@ -416,3 +416,71 @@ header .btn:focus {
 .thumbnail {
   height: 100%;
 }
+
+.portfolio-link {
+  display: block;
+  position: relative;
+}
+
+.portfolio-hover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(125, 125, 125, 0.5);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.portfolio-hover:hover {
+  opacity: 1;
+}
+
+.portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  font-size: 30px;
+  top:45%;
+  color: #fff;
+}
+
+.modal {
+  padding: 0 !important;
+}
+
+.modal-dialog {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.modal-content {
+  min-height: 100%;
+  background-color: rgba(255,255,255,0.9);
+}
+
+.modal-content img {
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 500px;
+}
+
+.modal-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#contactme a {
+  color: #fff;
+}
+
+#contactme a:hover {
+  color: #bbb;
+  text-decoration: none;
+}
+
+#contactme a:focus {
+  color: #fff;
+  text-decoration: none;
+}
