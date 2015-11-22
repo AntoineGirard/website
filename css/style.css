@@ -127,17 +127,19 @@ html, body {
   transition: 1s;
 }
 
-@media(min-width:768px) {
-  .affix-top {
-    background-color: transparent;
-    color: #fff;
-  }
-
-  .affix-top a {
-    color: #fff !important;
-  }
-
+.affix-top {
+  background-color: transparent;
+  color: #fff;
 }
+
+.affix-top a {
+  color: #fff !important;
+}
+
+.affix-top .icon-bar {
+  background-color: #fff !important;
+}
+
 
 header {
   position: relative;
