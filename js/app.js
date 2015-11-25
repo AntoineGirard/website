@@ -17,3 +17,11 @@
 
   new WOW().init();
 })(jQuery)
+
+$('.navbar-collapse ul li a').click(function() {
+    $('.navbar-toggle:visible').click();
+});
+
+$('#noeCompany').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
