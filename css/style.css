@@ -452,6 +452,14 @@ header .btn:focus {
   color: #fff;
 }
 
+#certifications {
+  margin-bottom: 30px;
+}
+
+#certifications img {
+  margin-top: 20px;
+}
+
 .modal {
   padding: 0 !important;
 }
