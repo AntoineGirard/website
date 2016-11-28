@@ -426,32 +426,6 @@ header .btn:focus {
   height: 100%;
 }
 
-.portfolio-link {
-  display: block;
-  position: relative;
-}
-
-.portfolio-hover {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(125, 125, 125, 0.5);
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.portfolio-hover:hover {
-  opacity: 1;
-}
-
-.portfolio-hover-content {
-  position: absolute;
-  width: 100%;
-  font-size: 30px;
-  top:45%;
-  color: #fff;
-}
-
 #certifications {
   margin-bottom: 30px;
 }
